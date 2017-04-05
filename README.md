@@ -5,14 +5,15 @@ There were 4 sensors, 2 photoresistors to detect the people coming in and going 
 There is also a keypad which is used to enter the safe/vault of the system. There is a set of rotating passwords every 5 seconds and if the wrong password is entered three times the alert is sent to microcontroller 2. 
 
 Components used:
-AVR Studio 6
-2 ATmega1284 microcontrollers
-1 Keypad
-2 photoresistors
-1 microphone
-1 tmp36 temperature sensor
-2 16x2 lcd screens
-2 potentiometers 
+* AVR Studio 6
+* 2 ATmega1284 microcontrollers
+* 1 Keypad
+* 2 photoresistors
+* 1 microphone
+* 1 tmp36 temperature sensor
+* 2 16x2 lcd screens
+* 2 potentiometers 
+
 
 All relevant files can be found under `SecuritySystem` 
 
