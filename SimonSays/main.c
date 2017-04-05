@@ -1,18 +1,8 @@
-/*
-*
-*	Jonathan Candelaria - jcand003@ucr.edu
-*	Lab section: 21
-*	Assignment: 120b Final Project - Simon Says
-*	I acknowledge all content contained herein, excluding template or example code is my original work
-*/
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <avr/eeprom.h>
-//#include "C:\Users\Jonathan\Desktop\spring2015\120b\labs\lab7\keypad.h"
-#include "C:\Users\Jonathan\Desktop\spring2015\120b\labs\lab7\io.c"
-#include "C:\Users\Jonathan\Desktop\spring2015\120b\labs\lab7\bit.h"
 #include <util/delay.h>
 #define buttonQ1 GetBit(~PINA, 0)
 #define buttonQ2 GetBit(~PINA, 1)
