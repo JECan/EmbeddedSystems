@@ -14,7 +14,8 @@ AVR Studio 6
 2 16x2 lcd screens
 2 potentiometers 
 
-All relevant files can be found under `SecuritySystem`
+All relevant files can be found under `SecuritySystem` 
+
 Link to demo: https://www.youtube.com/watch?v=6Kw8LiY1nk4
 
 ## Simon Says
