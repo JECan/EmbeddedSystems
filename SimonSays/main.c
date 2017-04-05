@@ -167,7 +167,7 @@ void transmit_data_data(unsigned char data) {
 		// set SRCLK = 1. Rising edge shifts next bit of data into the shift register
 		PORTD |= 0x02;
 	}
-	// set RCLK = 1. Rising edge copies data from “Shift” register to “Storage” register
+	// set RCLK = 1. Rising edge copies data from â€œShiftâ€ register to â€œStorageâ€ register
 	PORTD |= 0x04;
 	// clears all lines in preparation of a new transmission
 	PORTD = 0x00;
@@ -185,7 +185,7 @@ void transmit_data_green(unsigned char data) {
 		// set SRCLK = 1. Rising edge shifts next bit of data into the shift register
 		PORTC |= 0x02;
 	}
-	// set RCLK = 1. Rising edge copies data from “Shift” register to “Storage” register
+	// set RCLK = 1. Rising edge copies data from â€œShiftâ€ register to â€œStorageâ€ register
 	PORTC |= 0x04;
 	// clears all lines in preparation of a new transmission
 	PORTC = 0x00;
@@ -202,7 +202,7 @@ void transmit_data_red(unsigned char data) {
 		// set SRCLK = 1. Rising edge shifts next bit of data into the shift register
 		PORTB |= 0x02;
 	}
-	// set RCLK = 1. Rising edge copies data from “Shift” register to “Storage” register
+	// set RCLK = 1. Rising edge copies data from â€œShiftâ€ register to â€œStorageâ€ register
 	PORTB |= 0x04;
 	// clears all lines in preparation of a new transmission
 	PORTB = 0x00;
@@ -219,7 +219,7 @@ void transmit_data_blue(unsigned char data) {
 		// set SRCLK = 1. Rising edge shifts next bit of data into the shift register
 		PORTB |= 0x02;
 	}
-	// set RCLK = 1. Rising edge copies data from “Shift” register to “Storage” register
+	// set RCLK = 1. Rising edge copies data from â€œShiftâ€ register to â€œStorageâ€ register
 	PORTB |= 0x04;
 	// clears all lines in preparation of a new transmission
 	PORTB = 0x00;
