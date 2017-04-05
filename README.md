@@ -14,3 +14,5 @@ AVR Studio 6
 2 potentiometers 
 
 Link to demo: https://www.youtube.com/watch?v=6Kw8LiY1nk4
+
+Another project I have done was recreating the Simon Says memory game using an 8x8 led matrix and an LCD screen. EEPROM was also used to store the high score. A link to the demo: https://www.youtube.com/watch?v=i_mLvQNuinI&feature=youtu.be
